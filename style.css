@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Light grey background outside canvas */
+    overflow: hidden; /* Prevent scrollbars if canvas slightly overflows */
+}
+
+canvas {
+    border: 1px solid black; /* Helps visualize the canvas boundaries */
+    display: block; /* Prevents extra space below canvas */
+    background-color: #87CEEB; /* Default sky blue background */
+}
